@@ -2,7 +2,7 @@
 
 $vermelho: #DB3A34;
 $input: #3B3B3B;
-$font-clara: #B7B7B7;
+$font-clara: #1d1d1d;
 $extremos: #101010;
 $font: 'Poppins';
 
@@ -30,15 +30,28 @@ body {
 nav {
     background-color: $extremos;
     position: fixed;
-    
-    img {
-        width: 80px;
-    }
-    
+    opacity: 0.6;
+
     p {
         font-weight: 900;
         font-size: 32px;
     }
+}
+
+nav .navbar .container-fluid ul .navbar-nav li .nav-item a::after {
+    content: " ";
+    width: 100%;
+    height: 4px;
+    background-color: $vermelho;
+    position: relative;
+    
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: none;
+    justify-content: space-between !important;
+    align-items: center;
 }
     
 .footer {

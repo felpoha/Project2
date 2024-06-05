@@ -13,26 +13,27 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
             <div class="container-fluid">
                 <a class="navbar-brand d-flex" href="#">
-                    <img src="imagens/LogoGameHub.png" alt="GameHub">
+                    <img src="imagens/logoGameHubVerm.png" style="width: 65px;" alt="">
+                    <p class="d-none d-md-block" style="color: #DB3A34;">Game</p>
+                    <p class="d-none d-md-block">Hub</p>
                 </a>
-                <p class="mt-3 d-none d-md-block">GameHub</p>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse text-white" id="navbarNav">
-                    <ul class="navbar-nav">
+                <div class="collapse navbar-collapse flex-grow-0 text-center" id="navbarNav">
+                    <ul class="navbar-nav position-relative"">
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">HOME</a>
+                            <a class="nav-link" href="#">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">CONTATO</a>
+                            <a class="nav-link" href="#">CONTATO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">MEMBROS</a>
+                            <a class="nav-link" href="#">MEMBROS</a>
                         </li>
                     </ul>
                 </div>
